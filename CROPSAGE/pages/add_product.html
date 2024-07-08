@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Nuevo Producto</title>
+    <link rel="stylesheet" href="/css/Styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="/images/logo1.png" alt="Logo 1" class="logo logo-left">
+            <img src="/images/logo2.png" alt="Logo 2" class="logo logo-right">
+        </div>
+        <div class="content">
+            <div class="add-product-form">
+                <form>
+                    <div class="form-group">
+                        <label for="referencia">Referencia</label>
+                        <input type="text" id="referencia" name="referencia" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre_producto">Nombre del producto</label>
+                        <input type="text" id="nombre_producto" name="nombre_producto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cantidad_peso">Cantidad/Peso</label>
+                        <input type="text" id="cantidad_peso" name="cantidad_peso" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="responsable">Responsable</label>
+                        <input type="text" id="responsable" name="responsable" required>
+                    </div>
+                    <button type="submit">Registrar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="back-button" onclick="location.href='/pages/module.html'">Volver</button>
+        </div>
+    </div>
+</body>
+</html>
